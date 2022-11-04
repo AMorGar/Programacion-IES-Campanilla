@@ -9,8 +9,8 @@ public class DatosPersonales {
 		
 		String nombre,direccion,telefono;
 		nombre = "Alejandro Moreno Garrido";
-		direccion="calle limoneros";
-		telefono="698707821";
+		direccion="calle papada";
+		telefono="695677561";
 		
 		
 		System.out.println("Mi nombre es= "+ nombre);
