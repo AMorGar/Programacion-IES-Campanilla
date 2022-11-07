@@ -5,9 +5,10 @@
 public class iva{
 	
 	public static void main (String[] args) {
-	int preciobase= 400;
-	 double precio;
-	 precio= (double)preciobase *1.25;
+	double preciobase= 400;
+	double total= preciobase*1.25;
+	 int precio;
+	 precio= (int)total;
 	 
 	 System.out.println("El resultado del iva es " + precio);	
 	}
