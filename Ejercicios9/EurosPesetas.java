@@ -11,7 +11,7 @@ public class EurosPesetas {
 				double euros;
 					euros = Integer.parseInt( N1 );
 			
-		double pesetas= euros*160;
+		int pesetas= euros*160;
 			System.out.print(N1+"euros, son: "+ pesetas+" pesetas");
 		
 	}
