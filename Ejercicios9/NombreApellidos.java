@@ -4,14 +4,14 @@
 public class NombreApellidos {
 	public static void main(String[] args) {
 //declaramos las variables
-		String Nombre;
-		String Apellido;
+		String nombre;
+		String apellido;
 //Pedimos los numeros que se alamacenaran en las variables
 			System.out.print("Por favor, dime cómo te llamas: ");
-				Nombre = System.console().readLine();
+				nombre = System.console().readLine();
 			System.out.print("Por favor, dime tus apellidos: ");
-				Apellido= System.console().readLine();
+				apellido= System.console().readLine();
 //imprimimos por pantalla				
-		System.out.println("Hola " + Nombre + Apellido +", ¡encantado de conocerte!");
+		System.out.println("Hola " + nombre + apellido +", ¡encantado de conocerte!");
 }
 }
