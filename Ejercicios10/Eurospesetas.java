@@ -8,7 +8,7 @@ public class Eurospesetas {
 		String N1;
 			System.out.print("Por favor, introduce un número: ");
 		N1 = System.console().readLine();
-		double euros;
+		int euros;
 					euros = Integer.parseInt( N1 );
 			
 		double pesetas= euros*160;
