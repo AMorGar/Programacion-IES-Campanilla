@@ -1,6 +1,6 @@
 /*
 Alejandro Moreno Garrido
-*Cuetna el numero de letras3
+*Cuenta el numero de numeros
  */
 public class Tamano {
 
@@ -24,9 +24,9 @@ public class Tamano {
     }
     
      if (cont == 1) {
-      System.out.println("Tiene 1 letra.");
+      System.out.println("Tiene 1 numero.");
     } else {
-      System.out.println("Tiene " + cont + " letras.");
+      System.out.println("Tiene " + cont + " numeros.");
     }
   }
 }
