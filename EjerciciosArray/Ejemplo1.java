@@ -20,7 +20,7 @@ public class Ejemplo1{
 		num[7] = num[2] / 10;
 		num[8] = num[0] + num[1] + num[2];
 		num[9] = num[8];
-		System.out.println("Introduce la posicon del array que quieres mirar");
+		System.out.println("Introduce la posicon del array ");
 		int n = s.nextInt();
 		System.out.println(num[n]);
 		System.out.println("-----------------------Lista de numeros-------------------------");	
