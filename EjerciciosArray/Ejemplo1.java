@@ -36,8 +36,8 @@ public class Ejemplo1{
 		for (int i = 0; i < 10; i++) {		
 			suma=num[i]+suma;
 			i++;
-		}	
-		System.out.println("La suama de pares es= "+suma);
+		}
+		System.out.println("Suma= "+suma);
 	}
 }
 
