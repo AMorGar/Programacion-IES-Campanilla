@@ -39,11 +39,11 @@ public class Articulo {
       this.descripcion = descripcion;
     }
   
-    public double getPrecioDeCompra() {
+    public double getPrecioTotal() {
       return precioDeCompra;
     }
   
-    public void setPrecioDeCompra(double precioDeCompra) {
+    public void setPrecioTotal(double precioDeCompra) {
       this.precioDeCompra = precioDeCompra;
     }
   
@@ -55,11 +55,11 @@ public class Articulo {
       this.precioDeVenta = precioDeVenta;
     }
   
-    public int getStock() {
+    public int getalmacen() {
       return stock;
     }
   
-    public void setStock(int stock) {
+    public void setalmacen(int stock) {
       this.stock = stock;
     }
   
